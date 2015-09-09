@@ -18,7 +18,7 @@ task clean(type: Delete) {
 }
 
 ext {
-    BASE_APPLICATION_ID = 'br.com.concretesolutions.arquiteturaa'
+    BASE_APPLICATION_ID = 'br.com.concretesolutions.arquitetura'
     TARGET_API = 23
     MIN_API = 16
     BUILD_TOOLS = '23.0.1'
