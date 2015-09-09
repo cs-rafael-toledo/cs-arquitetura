@@ -16,3 +16,16 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    BASE_APPLICATION_ID = 'br.com.concretesolutions.arquiteturaa'
+    TARGET_API = 23
+    MIN_API = 16
+    BUILD_TOOLS = '23.0.1'
+
+    VERSION_NAME = '0.0.1'
+    VERSION_CODE = 1
+
+    SUPPORT_LIB_VERSION = '23.0.1'
+    JUNIT_VERSION = '4.12'
+}
